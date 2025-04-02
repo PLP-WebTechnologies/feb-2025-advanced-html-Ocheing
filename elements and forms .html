@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Demo</title>
+</head>
+
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List of Items</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/31224767/pexels-photo-31224767/free-photo-of-majestic-macaw-soaring-in-omani-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Sample Image from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Zeraphath Nekesa</td>
+            <td>123 Street, City</td>
+            <td>+254123456789</td>
+            <td>nekesa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Otieno</td>
+            <td>456 Avenue, City</td>
+            <td>+250987654321</td>
+            <td>otieno@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Nyla Johnson</td>
+            <td>789 Boulevard, City</td>
+            <td>+252192837465</td>
+            <td>nyla@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lisa Tandale</td>
+            <td>321 Lane, City</td>
+            <td>+25364738291</td>
+            <td>lisa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Dylian White</td>
+            <td>987 Road, City</td>
+            <td>+254712344567</td>
+            <td>dylianwhite@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="ke">Kenya</option>
+            <option value="ug">Uganda</option>
+            <option value="Tz">Tanzania</option>
+            <option value="Ethiopia">Ethiopia</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Audio and Video</h2>
+    <audio controls>
+        <source src="audio/youtube_V15A9-Ox5q0_audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    <video controls width="500">
+        <source src="video/VID-20240313-WA0018.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+
+</html>
